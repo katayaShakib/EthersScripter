@@ -1,10 +1,11 @@
-# EthersScripts
-Learn to write scrpits using Ethers.js
-## Usage
-1. Download the repository files
-2. Initialize a node project
-3. Copy ".env.eaxmple" file to a new file and name it ".env"
-4. Fill in the variables in ".env" file, INFURA_KEY with your Infura key, and EXAMPLE_ACCOUNT with an Ethereum "name.eth"
-5. Run "node providers.js"
-6. Fill in the variable, My_WALLET_PRIVATE_KEY in ".env" file with a private key
-7. Run "node wallets.js"
+# EthersScripter
+Learn to write scrpits, read from and write to Ethereum Blockchain using Ethers.js to become a powerful Ethers Scripter
+## Set up steps
+1. Clone the the repo
+2. Install dependencies with `npm install`
+3. Copy `.env.example` file to a new file and name it `.env`
+4. Fill in the required variables/keys in `.env` file as you need them, ex: to run providers.js, you will need to fill in `INFURA_KEY` with `your Infura key`, and `EXAMPLE_ACCOUNT` with an Ethereum name `name.eth` as "vitalik.eth"
+5. Learn about providers from `providers.js`, after reading the file to try it, run `node providers.js` 
+6. Learn about wallets from Run `wallets.js`, after reading the file to try it, run `node wallets.js`
+7. After learning about providers and wallets, you can have them both in `utils.js`
+8. Try to send ETH bu running `node sendETH.js` that imports `utils.js` exported functions
