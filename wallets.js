@@ -57,10 +57,16 @@ const signer = new ethers.Wallet(
   goerliProvider
 );
 
+// try the very next console.log before and after loading your account with ETH
+// you can load you account with Goerli testnet ETH using any Goerli faucet
+// keep in mind that "testnet ETH" has no value in the real world, and be careful to not send real ETH to test accounts or contracts
+// I have used this faucet https://goerlifaucet.com/
+// sign up -> sign in -> copy and paste the account address you want to load -> hit "Send Me ETH" button
 console.log(
-  "myBalance on goerli testnet is ",
+  "myBalance on Goerli testnet is ",
   ethers.utils.formatEther(await goerliProvider.getBalance(signer.address))
 );
+
 const myBalance = await goerliProvider.getBalance(signer.address);
 
 // send ETH to another account
