@@ -1,5 +1,5 @@
 # EthersScripter
-Learn to write scrpits that read from and write to Ethereum Blockchain using Ethers.js library to become a powerful Ethers Scripter
+Learn by examples how to write scrpits that read from and write to Ethereum Blockchain using Ethers.js library to become a powerful Ethers Scripter
 ## Setup and Learning Steps
 01. Clone the the repo
 02. Install dependencies with `npm install`
